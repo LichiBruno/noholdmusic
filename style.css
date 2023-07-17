@@ -1,175 +1,178 @@
 body {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 19px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background-color: #fefefe;
-    color: #04143a;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    line-height: 1;
-  }
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 19px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fefefe;
+  color: #04143a;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  line-height: 1;
+}
 
-  	* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline
-    }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
 h1.name {
-    font-size: 94px;
-    font-weight: 700;
-    display: inline-block;
-    text-decoration-color: #fff;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-
+  font-size: 94px;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration-color: #fff;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 .subtitle {
-    display: block;
-    font-size: 24px;
-    font-weight: 300;
-    color: #81899c;
-    margin-top: 10px;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 10px;
 }
 
 .lead {
-    font-size: 44px;
-    font-weight: 300;
-    margin-top: 60px;
-    line-height: 55px;
+  font-size: 44px;
+  font-weight: 300;
+  margin-top: 60px;
+  line-height: 55px;
 }
 
 .container {
-    padding: 15px;
-    margin: 0px auto;
-    max-width: 1100px;
-    height: auto;
+  padding: 15px;
+  margin: 0px auto;
+  max-width: 1100px;
+  height: auto;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
-div, footer{
-    box-sizing: border-box;
+div,
+footer {
+  box-sizing: border-box;
 }
 
 .hero {
-    margin: 60px auto;
-    position: relative;
+  margin: 60px auto;
+  position: relative;
 }
 
 .sections {
-    vertical-align: top;
-    display: inline-block;
-    min-height: 50px;
+  vertical-align: top;
+  display: inline-block;
+  min-height: 50px;
 }
 
 .sectionleft {
-    width: 40%;
+  width: 40%;
 }
 
-.section-title{
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    width: 373.913px;
-    height: 28px;
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  width: 373.913px;
+  height: 28px;
 }
 
-.list-card.example{
-    margin: 30px 80px;
-    padding: 25px 25px 10px 25px;
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
-    margin-left: 0;
-    height: 278px;
-    width: 293.913px;
+.list-card.example {
+  margin: 30px 80px;
+  padding: 25px 25px 10px 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: -20px 20px 60px #d9d9d9, 20px -20px 60px #ffffff;
+  margin-left: 0;
+  height: 278px;
+  width: 293.913px;
 }
 
 .list-card div {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .slack {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .slack img {
-    width: 42px;
-    height: 42px;
-    border-radius: 5px;
-    float: left;
-    margin-right: 10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
 }
 
 .slack .slackname {
-    font-weight: 600;
-    font-size: 16px;
-    color: #1d1c1d;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1d1c1d;
 }
 
-.list-card .exp, .list-card div {
-    display: inline-block;
-    vertical-align: top;
+.list-card .exp,
+.list-card div {
+  display: inline-block;
+  vertical-align: top;
 }
-
 
 .slack .slacktime {
-    font-size: 14px;
-    color: #616061;
+  font-size: 14px;
+  color: #616061;
 }
 
 .slack .slackmessage {
-    font-size: 16px;
-    color: #1d1c1d;
-
+  font-size: 16px;
+  color: #1d1c1d;
 }
 
 .sectionright {
-    width: 59%;
-    display: inline-block;
-    height: 547px;
+  width: 59%;
+  display: inline-block;
+  height: 547px;
 }
 
 .list-card div p {
-    font-size: 18px;
-    color: #616061;
-    line-height: 24px;
-    margin-bottom: 22px;
+  font-size: 18px;
+  color: #616061;
+  line-height: 24px;
+  margin-bottom: 22px;
 }
 
 .list-card div p:first-of-type {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .container ul {
-    list-style: none;
-    font-size: 18px;
-    color: #616061;
-    line-height: 24px;
-    margin-bottom: 16px;
-    margin-left: 20px;
-    margin-top: -20px;
-    opacity: 70%;
+  list-style: none;
+  font-size: 18px;
+  color: #616061;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+  margin-top: -20px;
+  opacity: 70%;
+}
+
+.container.nonos {
+  display: flex;
 }
 
 strong {
-    font-weight: 600;
+  font-weight: 600;
 }
